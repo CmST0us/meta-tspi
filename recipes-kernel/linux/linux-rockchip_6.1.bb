@@ -6,9 +6,9 @@ require linux-rockchip.inc
 
 inherit local-git
 
-SRCREV = "31ba856fa45c27046ebdc111a9b62f9c21103e85"
+SRCREV = "${AUTOREV}"
 SRC_URI = " \
-	git://github.com/JeffyCN/mirrors.git;protocol=https;nobranch=1;branch=kernel-6.1-2024_01_02; \
+	git://github.com/CmST0us/tspi-kernel.git;protocol=https;nobranch=1;branch=main; \
 	file://${THISDIR}/files/cgroups.cfg \
 "
 
